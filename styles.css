@@ -117,7 +117,9 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 53.6px
+    gap: 53.6px;
+
+    margin-bottom: 80px;
 }
 
 .info-title {
@@ -186,22 +188,41 @@ a {
 .action {
     background-color: #3882F6;
     border-radius: 10px;
-    padding: 42px 0;
+    padding: 42px 0px;
+    margin: 0 50px;
 
     justify-content: center;
 }
 
 .action-content {
-    max-width: 790px;
+    padding: 0 20px;
+    max-width: 770px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     flex: auto;
+    color:#F9FAF8;
+    row-gap: 10px;
+
+    justify-content: space-between;
     align-items: center;
-    color:#F9FAF8
+}
+
+.action-left {
+    flex: auto;
+}
+
+.action-right {
+    flex: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action-button {
     border: 2px solid #F9FAF8;
+    align-self: center;
+    margin: 0;
 }
 
 .action-title {
